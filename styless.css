@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    }
+
+.contair-left {
+    width: 60vh;
+    display: inline-block;
+    margin-left: 213px;
+    position: relative;
+    top: 98px;
+}
+
+.contair-right {
+    width: 40vh;
+    display: inline-block;
+    background: rgba(93, 93, 125, 0.26);
+    height: 100vh;
+    position: relative;
+    left: 10%;
+    cursor: pointer;
+}
+
+img {
+    position: relative;
+    top: 25%;
+    right: 36%;
+}
+
+
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+} 
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border: none;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.links-right {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-right: 15px;
+    margin: 26px 0 0 25px;
+
+}
+
+a:nth-child(2) {
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 600px) {
+    .links-right {
+        display: none;
+    }
+
+    .contair-left {
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 10%;
+    }
+
+    .contair-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        width: 90%;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+
+}
